@@ -80,7 +80,7 @@ const Portfolio = () => {
       setDownloadStatus('success');
       // Create download link for PDF
       const link = document.createElement('a');
-      link.href = './public/Utkarsh_Sinha_SDE.pdf'; // Replace with actual PDF path
+      link.href = '/Utkarsh_Sinha_SDE.pdf'; // Replace with actual PDF path
       link.download = 'Utkarsh_Sinha_SDE.pdf';
       link.click();
       
@@ -229,7 +229,7 @@ const Portfolio = () => {
               <div className="w-10 h-10 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 p-0.5">
                 <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
                   <img 
-                    src="utkarsh-portfolio\public\Pic.jpg" 
+                    src="/Pic.jpg" 
                     alt="Utkarsh Sinha" 
                     className="w-full h-full object-cover rounded-full"
                   />
@@ -273,7 +273,7 @@ const Portfolio = () => {
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 p-1">
                   <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
                     <img 
-                      src="./public/pic.jpg"  
+                      src="/pic.jpg"  
                       alt="Utkarsh Sinha" 
                       className="w-full h-full object-cover rounded-full"
                     />
