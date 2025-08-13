@@ -80,7 +80,7 @@ const Portfolio = () => {
       setDownloadStatus('success');
       // Create download link for PDF
       const link = document.createElement('a');
-      link.href = '/Utkarsh_Sinha_SDE.pdf'; // Replace with actual PDF path
+      link.href = 'Utkarsh_Sinha_SDE(M)';
       link.download = 'Utkarsh_Sinha_SDE.pdf';
       link.click();
       
@@ -430,17 +430,14 @@ const Portfolio = () => {
             <FloatingCard delay={200}>
               <div className="space-y-6">
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  I'm a passionate Software Development Engineer with expertise in full-stack development, 
-                  specializing in React.js, Node.js, and modern web technologies. Currently pursuing my 
-                  Bachelor's in Computer Applications at Banaras Hindu University.
+                 Software Development Engineer specializing in full-stack development with expertise in React.js, React Native, Node.js, and modern web technologies. Recently graduated with a B.Voc in Computer Applications from Banaras Hindu University.
                 </p>
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  With hands-on experience in building scalable applications, from mobile apps to enterprise 
-                  SaaS platforms, I'm driven by creating innovative solutions that make a real impact.
+                 Experienced in delivering scalable, user-focused solutions — from GST-compliant SaaS platforms to AI-powered applications — with strong skills in REST APIs, real-time systems, and cloud deployment. Actively seeking opportunities to contribute to innovative software development projects.
                 </p>
                 <div className="flex items-center space-x-4 pt-4">
                   <MapPin className="w-5 h-5 text-cyan-400" />
-                  <span className="text-gray-300">Varanasi, India</span>
+                  <span className="text-gray-300">Lucknow, India</span>
                 </div>
               </div>
             </FloatingCard>
