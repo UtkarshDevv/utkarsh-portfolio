@@ -229,7 +229,7 @@ const Portfolio = () => {
               <div className="w-10 h-10 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 p-0.5">
                 <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
                   <img 
-                    src="./public/pic.jpg" 
+                    src="public/Pic(2).jpg" 
                     alt="Utkarsh Sinha" 
                     className="w-full h-full object-cover rounded-full"
                   />
