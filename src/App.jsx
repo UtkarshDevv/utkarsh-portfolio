@@ -529,20 +529,20 @@ const Portfolio = () => {
             {projects.map((project, index) => (
               <FloatingCard key={index} delay={index * 200}>
                 <div className="group bg-gradient-to-br from-slate-800/50 to-slate-700/50 rounded-2xl p-8 backdrop-blur-sm border border-white/10 hover:border-cyan-400/30 transition-all duration-300 hover:transform hover:scale-105">
-                  <div className="flex items-center justify-between mb-4">
-                   <a
-                    href={project.link}
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   className="flex items-center gap-2
-                  >
-        <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
-           {project.title}
+                 <div className="flex items-center justify-between mb-4">
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2"
+  >
+    <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+      {project.title}
     </h3>
     <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-cyan-400 transition-colors" />
   </a>
-                  </div>
-                  
+</div>
+ 
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((tech, i) => (
                       <span key={i} className="px-3 py-1 bg-cyan-400/20 text-cyan-400 rounded-full text-sm">
