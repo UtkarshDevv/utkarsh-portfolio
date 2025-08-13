@@ -273,7 +273,7 @@ const Portfolio = () => {
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 p-1">
                   <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
                     <img 
-                      src="/pic.jpg"  
+                      src="/Pic.jpg"  
                       alt="Utkarsh Sinha" 
                       className="w-full h-full object-cover rounded-full"
                     />
