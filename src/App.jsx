@@ -308,7 +308,7 @@ const Portfolio = () => {
                 <a href="mailto:Utkarshsinha2122@gmail.com" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300 hover:scale-110">
                   <Mail className="w-6 h-6" />
                 </a>
-                <a href="#" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300 hover:scale-110">
+                <a href="https://www.linkedin.com/in/utkarshdevv/" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300 hover:scale-110">
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a href="tel:+917518075299" className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all duration-300 hover:scale-110">
