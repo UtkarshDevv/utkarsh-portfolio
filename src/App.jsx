@@ -121,6 +121,12 @@ const Portfolio = () => {
 
   const projects = [
     {
+     title: "Occult369 — AI-Powered Numerology Platform",
+     tech: ["React Native", "Expo", "Node.js", "Express.js", "Razorpay API", "Google Gemini AI", "MongoDB"],
+     description: "Full-stack mobile application for personalized numerology reports, integrating AI-powered analysis via Google Gemini API, secure payments through Razorpay, and dynamic HTML-to-PDF report generation.",
+    features: ["AI-Powered Analysis", "Secure Payment Integration", "Dynamic PDF Reports"]
+    },
+    {
       title: "Indian Financial Management SaaS",
       tech: ["React Native", "Expo", "Node.js"],
       description: "Full-stack business management platform with Indian GST compliance, automated tax calculations (CGST/SGST/IGST), real-time financial dashboards, and RESTful APIs serving enterprise clients.",
