@@ -124,19 +124,22 @@ const Portfolio = () => {
      title: "Occult369 — AI-Powered Numerology Platform",
      tech: ["React Native", "Expo", "Node.js", "Express.js", "Razorpay API", "Google Gemini AI", "MongoDB"],
      description: "Full-stack mobile application for personalized numerology reports, integrating AI-powered analysis via Google Gemini API, secure payments through Razorpay, and dynamic HTML-to-PDF report generation.",
-    features: ["AI-Powered Analysis", "Secure Payment Integration", "Dynamic PDF Reports"]
+     features: ["AI-Powered Analysis", "Secure Payment Integration", "Dynamic PDF Reports"],
+     link: "https://drive.google.com/file/d/1kfO0x_XupRKizvyRxFbltnMe7oRi3215/view?usp=sharing"
     },
     {
       title: "Indian Financial Management SaaS",
       tech: ["React Native", "Expo", "Node.js"],
       description: "Full-stack business management platform with Indian GST compliance, automated tax calculations (CGST/SGST/IGST), real-time financial dashboards, and RESTful APIs serving enterprise clients.",
-      features: ["GST Compliance", "Real-time Dashboards", "Enterprise APIs"]
+      features: ["GST Compliance", "Real-time Dashboards", "Enterprise APIs"],
+      link: "https://github.com/UtkarshDevv/Opyra_SaaS"
     },
     {
       title: "QuizCraft.in - AI-Powered Quiz Generator",
       tech: ["React.js", "OpenAI API", "PDF Processing"],
       description: "Intelligent quiz generation platform converting documents into interactive assessments using GPT-4 API, advanced OCR with Tesseract.js, and real-time batch processing with 60% faster document analysis.",
-      features: ["AI-Powered", "Multi-format Support", "Real-time Processing"]
+      features: ["AI-Powered", "Multi-format Support", "Real-time Processing"],
+      link:"https://quizcraft-lac.vercel.app/"
     }
   ];
 
@@ -527,10 +530,17 @@ const Portfolio = () => {
               <FloatingCard key={index} delay={index * 200}>
                 <div className="group bg-gradient-to-br from-slate-800/50 to-slate-700/50 rounded-2xl p-8 backdrop-blur-sm border border-white/10 hover:border-cyan-400/30 transition-all duration-300 hover:transform hover:scale-105">
                   <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
-                      {project.title}
-                    </h3>
-                    <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-cyan-400 transition-colors" />
+                   <a
+                    href={project.link}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="flex items-center gap-2
+                  >
+        <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
+           {project.title}
+    </h3>
+    <ExternalLink className="w-5 h-5 text-gray-400 group-hover:text-cyan-400 transition-colors" />
+  </a>
                   </div>
                   
                   <div className="flex flex-wrap gap-2 mb-4">
