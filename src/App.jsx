@@ -80,7 +80,7 @@ const Portfolio = () => {
       setDownloadStatus('success');
       // Create download link for PDF
       const link = document.createElement('a');
-      link.href = 'Utkarsh_Sinha_SDE(M)';
+      link.href = '/Utkarsh_Sinha_SDE(M).pdf';
       link.download = 'Utkarsh_Sinha_SDE.pdf';
       link.click();
       
